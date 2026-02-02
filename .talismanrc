@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: modules/patching-spoke-execution/csv-reporting.tf
+  checksum: 0000000000000000000000000000000000000000000000000000000000000000
+  ignore_detectors: []
