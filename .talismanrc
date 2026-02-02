@@ -1,4 +1,36 @@
-fileignoreconfig:
-- filename: modules/patching-spoke-execution/csv-reporting.tf
-  checksum: 0000000000000000000000000000000000000000000000000000000000000000
-  ignore_detectors: []
+{
+  "fileignoreconfig": [
+    {
+      "filename": "modules/patching-central-reporting/wsus_hub.tf",
+      "checksum": "87ae81aea47ff03581eceb0eec6d861a177c4fcdd6480c0f541215f8788a8cf1"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/iam.tf",
+      "checksum": "14a2f0bd04101c049e30d8f7323538e2b0fa9e392bd0b7cc224d82457fe21d74"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/locals.tf",
+      "checksum": "1c953ca86b1adea49d3e77d061c945206f61ad373fb28abce32e50c93778251b"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/main.tf",
+      "checksum": "c0efe269a9e25d70f61d8f8e6f84a2af131e1dddd4a54a8439108eda95d63494"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/patch-baselines.tf",
+      "checksum": "e35fb2628b1079fcf1e8f315e110c19f68980e8c5e5d1e4b09af8f2be88aba68"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/documents.tf",
+      "checksum": "0fb70f097e1ee03a4f3a3d158e2daacfd8314b5a391e10ac71e3d60219eac093"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/csv-reporting.tf",
+      "checksum": "3babfa241e0bb7e99154f1912795318bc0dfb060a3d603daa74235b3cf6d6ebf"
+    },
+    {
+      "filename": "modules/patching-spoke-execution/opt-out.tf",
+      "checksum": "0ca57c1b21b7a1938771e4b65a78047ad14e1f9ba7f9da70d59916a10f5f7b49"
+    }
+  ]
+}
